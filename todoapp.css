@@ -1,0 +1,37 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+.box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+   
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.task .actions {
+    display: flex;
+}
+.task .actions button {
+    margin-left: 5px;
+    cursor: pointer;
+}
+.task.completed {
+    color: #999;
+}
+button{
+    background-color:wheat;
+    color: crimson;
+    
+}
